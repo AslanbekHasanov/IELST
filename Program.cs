@@ -13,7 +13,8 @@ int command = Convert.ToInt32(Console.ReadLine());
 
 if(command == 1)
 {
-
+  Console.Clear();
+  System.Console.WriteLine("==== IELTS Score Calculator ====");
   System.Console.Write("Listening(ball): ");
   double listeningScore = Convert.ToDouble(Console.ReadLine());
   System.Console.Write("Reading(ball): ");
